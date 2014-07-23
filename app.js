@@ -3,9 +3,7 @@ var express = require("express"),
     oneYear = 31557600000;
 app.configure(function() {
     app.use(express.compress());
-    // app.use(express.static(__dirname + '/public', { maxAge: oneYear }));
-        app.use(express.static(__dirname + '/public'));
-
+    app.use(express.static(__dirname + '/public', { maxAge: oneYear }));
 });
 app.listen(process.env.PORT, process.env.IP);
 //

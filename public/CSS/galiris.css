@@ -1,8 +1,5 @@
 html {
-    background: url(/BACKGROUND_1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('') no-repeat center center fixed;
     background-size: cover;
 }
 a:link, a:visited {
@@ -77,19 +74,19 @@ html, body {
 }
 @font-face {
     font-family:'copperplate-gothic-light';
-    src: url('copperplate-gothic-light.ttf') format('truetype');
+    src: url('/FONT/copperplate-gothic-light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family:'Gasalt-Regular';
-    src: url('Gasalt-Regular.ttf') format('truetype');
+    src: url('/FONT/Gasalt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family:'Geneva';
-    src: url('Geneva.ttf') format('truetype');
+    src: url('/FONT/Geneva.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
