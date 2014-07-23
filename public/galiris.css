@@ -1,5 +1,5 @@
 html {
-    background: url(/GALIRIS_BACKGROUND.jpg) no-repeat center center fixed;
+    background: url(/BACKGROUND_1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,23 +11,83 @@ a {
 a:hover {
     font-weight:bold;
 }
-.centeimg {
-    width:150px;
-    height:150px;
-    position: fixed;
-    top: 10%;
-    left: calc(50% - 75px);
-    border: 1px solid red;
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
 }
-.centertext {
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+#content {
+    
+    padding-bottom:40px;
+    /* Height of the footer element */
+}
+#footer {
+    width:100%;
+    height:30px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color:#ffcc00;
+    text-align:right;
+     
+     
+}
+
+.logo {
+    color:white;
     position: fixed;
     text-align:center;
-    top: calc(10% - 20px);
-    left: calc(50% + 100px);
+    top: 30px;
+    left: 30px;
 }
-.text {
-    color: white;
-    font-family: Calibri, sans-serif;
-    
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+.title {
+    font-family:'copperplate-gothic-light';
+    background-color:#ffcc00;
+    font-size:36pt;
+    padding:5px;
+    margin:5px;
+    -webkit-transform:scale(1, 1.2);
+    -moz-transform:scale(1, 1.2);
+    -ms-transform:scale(1, 1.2);
+    -o-transform:scale(1, 1.2);
+    transform : scale(1, 1.2);
+}
+.subtitle {
+    font-family:'Gasalt-Regular';
+    margin:10px;
+    font-size:14pt;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
+    -webkit-transform:scale(1, 1.2);
+    -moz-transform:scale(1, 1.2);
+    -ms-transform:scale(1, 1.2);
+    -o-transform:scale(1, 1.2);
+    transform : scale(1, 1.2);
+}
+
+.mail{
+   font-size:14pt; 
+   -webkit-transform:scale(1, 1.2);
+    -moz-transform:scale(1, 1.2);
+    -ms-transform:scale(1, 1.2);
+    -o-transform:scale(1, 1.2);
+    transform : scale(1, 1.2);
+
+}
+
+@font-face {
+    font-family: 'copperplate-gothic-light';
+    src: url('copperplate-gothic-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gasalt-Regular';
+    src: url('Gasalt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
