@@ -54,7 +54,7 @@ html, body {
     font-family:'Gasalt-Regular';
     margin:10px;
     font-size:14pt;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
     -webkit-transform:scale(1, 1.2);
     -moz-transform:scale(1, 1.2);
     -ms-transform:scale(1, 1.2);
