@@ -1,4 +1,5 @@
 html {
+    /*Don't know why but needed for proper application in jquery auto shuffle of imges'*/
     background: url('') no-repeat center center fixed;
     background-size: cover;
 }
