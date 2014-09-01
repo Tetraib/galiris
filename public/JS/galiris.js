@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    //Random pick of background image
+    //Background image diffeent everyday
     var dateObj = new Date();
     var day = dateObj.getUTCDate();
     var backselect = day % 10;
